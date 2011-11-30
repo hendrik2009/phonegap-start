@@ -12,7 +12,9 @@ run(function () {
     })();
     
     // a little inline controller
-    when('#welcome');
+    when('#welcome', function(){
+    	alert('geht');
+    });
     when('#settings', function() {
 		// load settings from store and make sure we persist radio buttons.
 		store.get('config', function(saved) {
