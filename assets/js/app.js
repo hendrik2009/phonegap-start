@@ -29,6 +29,9 @@ run(function () {
 		});
 	});
 	when('#restorm');
+	when('#re', function(){
+		display('#welcome');
+	})
     when('#map', function () {
         store.get('config', function (saved) {
             // construct a gmap str
