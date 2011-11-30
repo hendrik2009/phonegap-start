@@ -28,6 +28,7 @@ run(function () {
 			}
 		});
 	});
+	when('#restorm');
     when('#map', function () {
         store.get('config', function (saved) {
             // construct a gmap str
