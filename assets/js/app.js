@@ -13,7 +13,7 @@ run(function () {
     
     // a little inline controller
     when('#welcome', function(){
-    	alert('geht');
+    	
     });
     when('#settings', function() {
 		// load settings from store and make sure we persist radio buttons.
@@ -60,3 +60,27 @@ run(function () {
         display('#welcome');
     });
 });
+function ask(){
+	/*x$('#welcome').xhr('inner', 'test.html');*/
+	if (window.XMLHttpRequest)
+	  {// code for IE7+, Firefox, Chrome, Opera, Safari
+	  xmlhttp=new XMLHttpRequest();
+	  }
+	else
+	  {// code for IE6, IE5
+	  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	  }
+	xmlhttp.open("GET","http://featherlike.restorm.com/widgets/minipage.xml",false);
+	xmlhttp.send();
+	xmlDoc=xmlhttp.responseXML;
+	
+	document.write("<table border='1'>");
+	var x=xmlDoc.getElementsByTagName("genre");
+	for (i=0;i<x.length;i++)
+	  {
+	  document.write("<tr><td>");
+	  document.write(x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue);
+	  document.write("</td><td>");
+	  }
+
+};

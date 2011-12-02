@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<minipage>
+  <profile_id type="integer">46583</profile_id>
+  <color>#333333</color>
+  <background_color>#cc9966</background_color>
+  <link_color>#cc3300</link_color>
+  <statistics_color></statistics_color>
+  <line_color></line_color>
+
+  <inactive_color></inactive_color>
+  <text_color>#333333</text_color>
+  <fullscreen_hint>Vollbild einschalten </fullscreen_hint>
+  <keyboard_hint>Tastaturbefehle</keyboard_hint>
+  <navigation_hints>
+    <title>Tastaturbefehle</title>
+    <navigate>Vor und zur&#252;ck springen</navigate>
+
+    <scroll>Inhalte scrollen</scroll>
+    <play>Abspielen / pausieren</play>
+    <volume>Lautst&#228;rke regeln</volume>
+  </navigation_hints>
+  <play_music_text>Musik abspielen</play_music_text>
+  <urlname>das-fest</urlname>
+
+  <real_name>DAS FEST</real_name>
+  <location>
+    <city>M&#252;nchen</city>
+    <country>Deutschland</country>
+  </location>
+  <background_image_small>http://assets0.restormassets.com/resources/images/d1/d136315518d0680a47856e1493ac7fea_1368098.jpeg?b80a94a</background_image_small>
+
+  <background_image_med>http://assets1.restormassets.com/resources/images/d1/d136315518d0680a47856e1493ac7fea_1368099.jpeg?b80a94a</background_image_med>
+  <background_image_big>http://assets0.restormassets.com/resources/images/d1/d136315518d0680a47856e1493ac7fea_1368100.jpeg?b80a94a</background_image_big>
+  <tabs type="array">
+<tab type="info" visible_in_menu="false">
+  <title>Info</title>
+  <real_name>DAS FEST</real_name>
+  <picture>http://assets1.restormassets.com/resources/images/d1/d136315518d0680a47856e1493ac7fea_1368101.jpeg?b80a94a</picture>
+
+  <become_fan>
+    <text>Fan werden</text>
+    <url>http://das-fest.restorm.com/</url>
+  </become_fan>
+  <genres>
+    <genre>
+      <name>Electronic</name>
+
+    </genre>
+    <genre>
+      <name>Hip-Hop</name>
+    </genre>
+  </genres>
+  <location>
+    <city>M&#252;nchen</city>
+
+    <country>Deutschland</country>
+  </location>
+  <fans>
+    <count>2</count>
+    <text>Fans</text>
+  </fans>
+  <about_us>
+
+    <title>&#220;ber</title>
+    <text></text>
+  </about_us>
+</tab>
+<tab type="albums">
+  <title>Musik</title>
+  <albums_text>Album</albums_text>
+  <more_info_text>Mehr Info</more_info_text>
+
+  <albums_count>1</albums_count>
+  <albums type="array">
+    <albums_text>Album</albums_text>
+    <albums_count>1</albums_count>
+    <affiliate_text>Erh&#228;ltlich bei</affiliate_text>
+    <album type="album">
+
+      <album_id>17041</album_id>
+      <album_number>1</album_number>
+      <released>2010 </released>
+      <duration type="seconds">2476</duration>
+      <title>DAS FEST</title>
+      <share_link_facebook>http://www.facebook.com/sharer.php?u=http://restorm.com/fb_share?cachebuster=35%26title=DAS%20FEST%26album_id=17041%26description=%3Cp%3E%3C%2Fp%3E%26url=http%3A%2F%2Fdas-fest%2Erestorm%2Ecom%2Falbums%2F17041</share_link_facebook>
+
+      <share_hint_facebook>Auf Facebook teilen </share_hint_facebook>
+      <share_link_twitter>http://twitter.com/home?status=Album%20DAS%20FEST%3A%20http%3A%2F%2Fs%2Erestorm%2Ecom%2Fdh74</share_link_twitter>
+      <share_hint_twitter>Auf Twitter teilen </share_hint_twitter>
+      <share_link_restorm>http://s.restorm.com/dh73</share_link_restorm>
+      <share_hint_restorm>Auf restorm.com teilen </share_hint_restorm>
+      <price type="EUR">510</price>
+
+      <purchase_url>http://das-fest.restorm.com/cart/add_article?content_type=album&amp;amp;direct=true&amp;amp;item=17041&amp;amp;item_name=DAS+FEST</purchase_url>
+      <purchase_hint>Kaufe das Album auf restorm.com </purchase_hint>
+      <purchase_advice>Jetzt Kaufen </purchase_advice>
+      <description></description>
+      <recommendation>http://das-fest.restorm.com/albums/17041</recommendation>
+
+      <title_text>Titel</title_text>
+      <album_image_url>http://assets3.restormassets.com/resources/images/c5/c545ceb9038ea759210888f1ded4491a_1368102.jpeg?b80a94a</album_image_url>
+      <album_thumb_url>http://assets0.restormassets.com/resources/images/13/13a91735a0689fa2404338a0d476d938_1368103.jpeg?b80a94a</album_thumb_url>
+      <songs>
+        <song>
+          <song_id>50433</song_id>
+          <title>Blaue Fessel</title>
+
+          <price type="EUR">99</price>
+          <buy_link>http://das-fest.restorm.com/cart/add_article?content_type=song&amp;amp;direct=true&amp;amp;item=50433&amp;amp;item_name=Blaue+Fessel</buy_link>
+          <duration type="seconds">209</duration>
+          <access>stream</access>
+          <stream_url>http://assets1.restormassets.com/resources/audio/6c/6cd620db83ba480dd1023a871261c5f9_1368079.mpga?b80a94a</stream_url>
+
+        </song>
+        <song>
+          <song_id>50434</song_id>
+          <title>F.E.S.T.</title>
+          <price type="EUR">99</price>
+          <buy_link>http://das-fest.restorm.com/cart/add_article?content_type=song&amp;amp;direct=true&amp;amp;item=50434&amp;amp;item_name=F.E.S.T.</buy_link>
+
+          <duration type="seconds">175</duration>
+          <access>stream</access>
+          <stream_url>http://assets3.restormassets.com/resources/audio/ab/ab6e8bc91c39313a0a083757d999bfc8_1368082.mpga?b80a94a</stream_url>
+        </song>
+        <song>
+          <song_id>50435</song_id>
+          <title>&#220;ber Zeit</title>
+
+          <price type="EUR">99</price>
+          <buy_link>http://das-fest.restorm.com/cart/add_article?content_type=song&amp;amp;direct=true&amp;amp;item=50435&amp;amp;item_name=%C3%9Cber+Zeit</buy_link>
+          <duration type="seconds">233</duration>
+          <access>stream</access>
+          <stream_url>http://assets0.restormassets.com/resources/audio/6f/6f394a8fc3a44a09a6dede2a04fe010e_1368091.mpga?b80a94a</stream_url>
+
+        </song>
+        <song>
+          <song_id>50436</song_id>
+          <title>(Tomorrow)</title>
+          <price type="EUR">99</price>
+          <buy_link>http://das-fest.restorm.com/cart/add_article?content_type=song&amp;amp;direct=true&amp;amp;item=50436&amp;amp;item_name=%28Tomorrow%29</buy_link>
+
+          <duration type="seconds">17</duration>
+          <access>stream</access>
+          <stream_url>http://assets2.restormassets.com/resources/audio/57/57547e5f3d2643ae42ecaca875f033cb_1368087.mpga?b80a94a</stream_url>
+        </song>
+        <song>
+          <song_id>50437</song_id>
+          <title>Zukunft Baby, Zukunft!</title>
+
+          <price type="EUR">99</price>
+          <buy_link>http://das-fest.restorm.com/cart/add_article?content_type=song&amp;amp;direct=true&amp;amp;item=50437&amp;amp;item_name=Zukunft+Baby%2C+Zukunft%21</buy_link>
+          <duration type="seconds">247</duration>
+          <access>stream</access>
+          <stream_url>http://assets1.restormassets.com/resources/audio/47/47136ec3a85f013585460109cb9cf836_1368088.mpga?b80a94a</stream_url>
+
+        </song>
+        <song>
+          <song_id>50438</song_id>
+          <title>Abrissbirne</title>
+          <price type="EUR">99</price>
+          <buy_link>http://das-fest.restorm.com/cart/add_article?content_type=song&amp;amp;direct=true&amp;amp;item=50438&amp;amp;item_name=Abrissbirne</buy_link>
+
+          <duration type="seconds">212</duration>
+          <access>stream</access>
+          <stream_url>http://assets1.restormassets.com/resources/audio/43/431d5a8d0e9dca538c55e6ef7a6c706c_1368084.mpga?b80a94a</stream_url>
+        </song>
+        <song>
+          <song_id>50439</song_id>
+          <title>Paragleiter</title>
+
+          <price type="EUR">99</price>
+          <buy_link>http://das-fest.restorm.com/cart/add_article?content_type=song&amp;amp;direct=true&amp;amp;item=50439&amp;amp;item_name=Paragleiter</buy_link>
+          <duration type="seconds">281</duration>
+          <access>stream</access>
+          <stream_url>http://assets2.restormassets.com/resources/audio/ac/ac38cf09577f76ac8f1961b3b5d2567e_1368083.mpga?b80a94a</stream_url>
+
+        </song>
+        <song>
+          <song_id>50440</song_id>
+          <title>Kardinaltugenden</title>
+          <price type="EUR">99</price>
+          <buy_link>http://das-fest.restorm.com/cart/add_article?content_type=song&amp;amp;direct=true&amp;amp;item=50440&amp;amp;item_name=Kardinaltugenden</buy_link>
+
+          <duration type="seconds">253</duration>
+          <access>stream</access>
+          <stream_url>http://assets3.restormassets.com/resources/audio/15/151287b3b5bb9d05be09632efffcdc1f_1368090.mpga?b80a94a</stream_url>
+        </song>
+        <song>
+          <song_id>50441</song_id>
+          <title>Marathonmann (Mit Audio88)</title>
+
+          <price type="EUR">99</price>
+          <buy_link>http://das-fest.restorm.com/cart/add_article?content_type=song&amp;amp;direct=true&amp;amp;item=50441&amp;amp;item_name=Marathonmann+%28Mit+Audio88%29</buy_link>
+          <duration type="seconds">241</duration>
+          <access>stream</access>
+          <stream_url>http://assets1.restormassets.com/resources/audio/54/547458c98183f0662a43852b67db2279_1368086.mpga?b80a94a</stream_url>
+
+        </song>
+        <song>
+          <song_id>50442</song_id>
+          <title>Teleskope</title>
+          <price type="EUR">99</price>
+          <buy_link>http://das-fest.restorm.com/cart/add_article?content_type=song&amp;amp;direct=true&amp;amp;item=50442&amp;amp;item_name=Teleskope</buy_link>
+
+          <duration type="seconds">309</duration>
+          <access>stream</access>
+          <stream_url>http://assets0.restormassets.com/resources/audio/c6/c6b545b0740194348a8c15eaba98dc76_1368092.mpga?b80a94a</stream_url>
+        </song>
+        <song>
+          <song_id>50443</song_id>
+          <title>Stahlkopfroboter</title>
+
+          <price type="EUR">99</price>
+          <buy_link>http://das-fest.restorm.com/cart/add_article?content_type=song&amp;amp;direct=true&amp;amp;item=50443&amp;amp;item_name=Stahlkopfroboter</buy_link>
+          <duration type="seconds">228</duration>
+          <access>stream</access>
+          <stream_url>http://assets0.restormassets.com/resources/audio/4c/4c0352d7fa60587e5a9d6579c94086ea_1368089.mpga?b80a94a</stream_url>
+
+        </song>
+        <song>
+          <song_id>50444</song_id>
+          <title>Ausis</title>
+          <price type="EUR">99</price>
+          <buy_link>http://das-fest.restorm.com/cart/add_article?content_type=song&amp;amp;direct=true&amp;amp;item=50444&amp;amp;item_name=Ausis</buy_link>
+
+          <duration type="seconds">71</duration>
+          <access>stream</access>
+          <stream_url>http://assets2.restormassets.com/resources/audio/c1/c1f1e4bc1bfec12cc9dcc64de5356d1f_1368085.mpga?b80a94a</stream_url>
+        </song>
+      </songs>
+    </album>
+  </albums>
+
+</tab>
+<tab type="videos">
+  <title>Videos</title>
+  <videos_text>Video</videos_text>
+  <videos_count>1</videos_count>
+  <play_text>abspielen</play_text>
+  <video type="video">
+    <type>Youtube</type>
+
+    <video_id>14493</video_id>
+    <video_number>1</video_number>
+    <description>DAS FEST sind Misanthrop und Omega Takeshi (88:Komaflash)
+Regie: Anatol Anderswo, Kamera: Jonas Spriestersbach, Steady Cam: Wenzel und Adrian, featuring: jens.cocon
+Das Lied ist auf der 7inch von DAS FEST. Diese enth&#228;lt einen Download-Code f&#252;r das gesamte Album, das es auch als CD gibt, Beides kann man bestellen bei: mailto:dasfest@misantropolis.de</description>
+    <external_id>1ZkrjgJVx7A</external_id>
+    <thumb_url>http://i.ytimg.com/vi/1ZkrjgJVx7A/hqdefault.jpg</thumb_url>
+
+    <title>DAS FEST - F.E.S.T.</title>
+    <recommendation>http://das-fest.restorm.com/videos/14493</recommendation>
+  </video>
+</tab>
+<tab type="more" visible_in_menu="false">
+  <title>Mehr</title>
+  <full_profile_text>Das Profil von DAS FEST findest du unter</full_profile_text>
+  <profile_url>http://das-fest.restorm.com/</profile_url>
+
+  <sharing_text>Teile diese Minipage auf</sharing_text>
+  <share_link_facebook>http://www.facebook.com/sharer.php?u=http://restorm.com/fb_share?cachebuster=9%26image=http%3A%2F%2Fassets2%2Erestormassets%2Ecom%2Fresources%2Fimages%2Fd1%2Fd136315518d0680a47856e1493ac7fea_1367930%2Ejpeg%3Fb80a94a%26title=DAS%20FEST%20auf%20restorm%2Ecom%3A%26minipage_for=46583%26description=%26url=http%3A%2F%2Fdas-fest%2Erestorm%2Ecom%2F</share_link_facebook>
+  <share_link_twitter>http://twitter.com/home?status=DAS%20FEST%20auf%20restorm%2Ecom%3A%3A%20http%3A%2F%2Fs%2Erestorm%2Ecom%2Fdh76</share_link_twitter>
+  <share_link_restorm>http://das-fest.restorm.com/</share_link_restorm>
+  <share_hint_facebook>Auf Facebook teilen </share_hint_facebook>
+  <share_hint_twitter>Auf Twitter teilen </share_hint_twitter>
+
+  <share_hint_restorm>Auf restorm.com teilen </share_hint_restorm>
+  <share_hint_embed>Code zum einbetten des Widgets in Zwischenablage kopieren</share_hint_embed>
+  <embed_text>Die Minipage kannst du &#252;berall einbetten mit</embed_text>
+  <embed_code>
+    <![CDATA[ &lt;object width=&quot;480&quot; height=&quot;320&quot;&gt; &lt;param name=&quot;FlashVars&quot; value=&quot;applicationSettingsURL=http://das-fest.restorm.com/widgets/minipage/settings.xml&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://das-fest.restorm.com/minipage/minipage.swf&quot;&gt; &lt;param value=&quot;true&quot; name=&quot;allowFullScreen&quot;&gt; &lt;param value=&quot;never&quot; name=&quot;allowscriptaccess&quot;&gt; &lt;embed src=&quot;http://das-fest.restorm.com/minipage/minipage.swf&quot; type=&quot;application/x-shockwave-flash&quot; allowFullScreen=&quot;true&quot; FlashVars=&quot;applicationSettingsURL=http://das-fest.restorm.com/widgets/minipage/settings.xml&quot;movie=&quot;http://das-fest.restorm.com/minipage/minipage.swf&quot; width=&quot;480&quot; height=&quot;320&quot; /&gt; &lt;/object&gt; ]]>
+  </embed_code>
+</tab>
+
+  </tabs>
+</minipage>
