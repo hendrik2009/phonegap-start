@@ -14,7 +14,7 @@ var run = function(application) {
 
 // shows id passed
 , display = function(id) {
-    x$(["#welcome", "#map", "#settings","#restorm"]).each(function(e, i) {
+    x$(["#welcome", "#info", "#music","#video","#foto","#event"]).each(function(e, i) {
         var display = '#' + x$(e)[0].id === id ? 'block' : 'none';
         x$(e).css({ 'display':display })
     });
@@ -30,4 +30,12 @@ var run = function(application) {
 		return false;
     });
 }
-};
+
+, button = function(class_name,callback){
+	x$(class_name + '_button').on('touchstart', function () {
+        if (callback)
+            callback.call(this);
+		return false;
+    });
+}
+;
