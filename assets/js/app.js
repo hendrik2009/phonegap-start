@@ -9,6 +9,7 @@ run(function () {
     var init = (function () {
         // init here
         //alert('app.js run init');
+        
         function ask(){
 			/*x$('#welcome').xhr('inner', 'test.html');*/
 			if (window.XMLHttpRequest)
@@ -30,10 +31,11 @@ run(function () {
 			 // document.write("<tr><td>");
 			  //document.write(x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue);
 			 // document.write("</td><td>");
-			 	x$('#info').html('before', '<p>some warmup html</p>');
+			 	x$("#info").html('before', '<p>some warmup html</p>');
 
 			  }
 		};
+		ask();
     })();
 
     // controller  
