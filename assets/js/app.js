@@ -13,7 +13,6 @@ run(function () {
 
     // a little inline controller
     when('#info', function(){
-    	
     	alert('info init');
     });
     when('#music', function(){
@@ -29,8 +28,8 @@ run(function () {
     	alert('event init');
     });
     when('#back', function(){
-    	alert('event init');
-    	display('welcome');
+    	alert('back init');
+    	display('#welcome');
     });
 });
 
