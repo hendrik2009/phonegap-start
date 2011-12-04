@@ -83,5 +83,4 @@ function ask(){
 	  document.write(x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue);
 	  document.write("</td><td>");
 	  }
-
 };
