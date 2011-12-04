@@ -30,7 +30,8 @@ run(function () {
 	});
 	when('#restorm');
 	when('#re', function(){
-		display('#welcome');
+		ask();
+		alert('request was send');
 	})
     when('#map', function () {
         store.get('config', function (saved) {
