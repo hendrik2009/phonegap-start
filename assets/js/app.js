@@ -31,5 +31,11 @@ run(function () {
     	alert('back init');
     	display('#welcome');
     });
+    
+   	alert('setup');
+   	x$(".back_button").on('touchstart', function () {
+            display("#welcome");
+    });
+    
 });
 
