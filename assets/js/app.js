@@ -14,22 +14,22 @@ run(function () {
     // a little inline controller
     when('#info', function(){
     	
-    	console.log('info init');
+    	alert('info init');
     });
     when('#music', function(){
-    	console.log('music init');
+    	alert('music init');
     });
     when('#video', function(){
-    	console.log('video init');
+    	alert('video init');
     });
     when('#foto', function(){
-    	console.log('foto init');
+    	alert('foto init');
     });
     when('#event', function(){
-    	console.log('event init');
+    	alert('event init');
     });
     when('#back', function(){
-    	console.log('event init');
+    	alert('event init');
     	display('welcome');
     });
 });
