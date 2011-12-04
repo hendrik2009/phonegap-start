@@ -7,6 +7,7 @@ var run = function(application) {
         // attach to deviceready event, which is fired when phonegap is all good to go.
         x$(document).on('deviceready', application, false);
     }
+     console.log('dsl.js run');
 }
 
 // throw our settings into a lawnchair
@@ -22,20 +23,12 @@ var run = function(application) {
 
 // reg a click to [id]_button, displays id (if it exists) and executes callback (if it exists)
 , when = function(id, callback) {
-    x$(id + '_button').on('touchstart', function () {
+	console.log('when called');
+    x$(id + "_button").on('touchstart', function () {
         if (x$(id).length > 0)
             display(id);
         if (callback)
             callback.call(this);
 		return false;
     });
-}
-
-, button = function(class_name,callback){
-	x$(class_name + '_button').on('touchstart', function () {
-        if (callback)
-            callback.call(this);
-		return false;
-    });
-}
-;
+};

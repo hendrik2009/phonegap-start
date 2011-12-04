@@ -1,34 +1,36 @@
 // 
 //  --- our app behavior logic ---
 //
+
 run(function () {
+	console.log('app.js run');
     // immediately invoked on first run
     var init = (function () {
-        if (navigator.network.connection.type == Connection.NONE) {
-            alert("No internet connection - we won't be able to show you any maps");
-        } else {
-            alert("We can reach Google - get ready for some awesome maps!");
-        }
+        // init here
+        console.log('app.js run init');
+     
     })();
-    
+
     // a little inline controller
     when('#info', function(){
     	
+    	console.log('info init');
     });
     when('#music', function(){
-    	
+    	console.log('music init');
     });
     when('#video', function(){
-    	
+    	console.log('video init');
     });
     when('#foto', function(){
-    	
+    	console.log('foto init');
     });
     when('#event', function(){
-    	
+    	console.log('event init');
     });
- 	button('.back', function(){
- 		display('#welcome');
- 	});
+    when('#back', function(){
+    	console.log('event init');
+    	display('welcome');
+    });
 });
 
