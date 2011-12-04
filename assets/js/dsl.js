@@ -30,12 +30,4 @@ var run = function(application) {
 		return false;
     });
 }
-
-// gets the value of the setting from the ui
-, ui = function(setting) {
-    var radio = x$('#settings_form')[0][setting];
-    for (var i = 0, l = radio.length; i < l; i++) {
-        if (radio[i].checked)
-            return radio[i].value;
-    }
 };

@@ -6,3 +6,73 @@
 		<p>BLA</p>
 	</body>
 </html>
+
+Audio with player 
+<audio controls="controls">
+  <source src="http://assets1.restormassets.com/resources/audio/6c/6cd620db83ba480dd1023a871261c5f9_1368079.mpga?b80a94a" type="audio/mpeg" />
+</audio>
+
+
+Video -Youtube with player - opens iosYoutube -
+										//vid id //
+<embed src="http://www.youtube.com/v/1ZkrjgJVx7A&hl=en&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="200" height="100"></embed>;
+
+rounded corner effect css
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  
+bg gadient
+	background: -webkit-gradient(linear, 0 0, 0 70%, from(#00bff3), to(#0099f3));
+	background: linear-gradient(#00bff3, #0099f3 70%);
+	
+
+
+
+Form input  
+
+dsl.js
+// gets the value of the setting from the ui
+, ui = function(setting) {
+    var radio = x$('#settings_form')[0][setting];
+    for (var i = 0, l = radio.length; i < l; i++) {
+        if (radio[i].checked)
+            return radio[i].value;
+    }
+
+/* in app.js on when ('settings');
+// load settings from store and make sure we persist radio buttons.
+		store.get('config', function(saved) {
+			if (saved) {
+				if (saved.map) {
+					x$('input[value=' + saved.map + ']').attr('checked',true);
+				}
+				if (saved.zoom) {
+					x$('input[name=zoom][value="' + saved.zoom + '"]').attr('checked',true);
+				}
+			}
+		});
+
+<form id="settings_form">
+		    <fieldset>
+		      <legend>Map Type</legend>
+			  <input type="radio" name="map" value="roadmap" checked>Road Map<br/>
+		      <input type="radio" name="map" value="satellite">Satellite<br/>
+		      <input type="radio" name="map" value="terrain">Terrain<br/>
+		      <input type="radio" name="map" value="hybrid">Hybrid<br/>
+		    </fieldset>
+		    <fieldset>
+		      <legend>Zoom Level</legend>
+  		      <input type="radio" name="zoom" value="10">Super Far<br/>
+  		      <input type="radio" name="zoom" value="12">Far<br/>
+  		      <input type="radio" name="zoom" value="15" checked>Normal<br/>
+  		      <input type="radio" name="zoom" value="18">Close<br/>
+  		      <input type="radio" name="zoom" value="20">Super Close<br/>
+  		     </fieldset>
+		      <button id="save_button">Save</button>
+	      </form>
+store.save({
+            key:'config',
+            map:ui('map'),
+            zoom:ui('zoom')
+        });
+        display('#welcome');	      
