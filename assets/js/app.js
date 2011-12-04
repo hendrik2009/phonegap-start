@@ -3,7 +3,7 @@
 //
 
 run(function () {
-	console.log('app.js run');
+	alert('app.js run');
     // immediately invoked on first run
     var init = (function () {
         // init here
