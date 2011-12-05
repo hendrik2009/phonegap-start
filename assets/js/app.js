@@ -7,8 +7,25 @@ run(function () {
 	//alert('app.js run');
     // immediately invoked on first run
     var init = (function () {
-
-		function ask(){			
+		
+		function parseInfo(data){
+			x$("#info").html('inner',"msg: parse Info<br/><div class='back_button'>Go Back</div>");
+			
+		};
+		function parseAlbums(data){
+			x$("#music").html('inner',"msg: parse music<br/><div class='back_button'>Go Back</div>");
+		};
+		function parseVideos(data){
+			x$("#video").html('inner',"msg: parse video<br/><div class='back_button'>Go Back</div>");
+		};
+		function parseEvents(data){
+			x$("#event").html('inner',"msg: parse Event<br/><div class='back_button'>Go Back</div>");
+		};
+		function parsePhoto(data){
+			x$("#foto").html('inner',"msg: parse Foto<br/><div class='back_button'>Go Back</div>");
+		};
+		
+		function getXml(){			
 			if (window.XMLHttpRequest){// code for IE7+, Firefox, Chrome, Opera, Safari
 				xmlhttp			= new XMLHttpRequest();
 			}
@@ -32,6 +49,23 @@ run(function () {
 					var attr = x[i].attributes[u];
 					if (attr.specified) {
 						message += "<p>" + attr.name + " = "  + attr.value + "</p>";
+						if(attr.name =="type"){
+							if(attr.value == "info"){
+								parseInfo(x[i]);
+							}
+							else if(attr.value == "albums"){
+								parseAlbums(x[i]);
+							}
+							else if(attr.value == "videos"){
+								parseVideos(x[i]);
+							}
+							else if(attr.value == "gallaries"){
+								parsePhoto(x[i]);
+							}
+							else if(attr.value == "events"){
+								parseEvents(x[i]);
+							}
+						}
             		}
             	
             	}
@@ -40,7 +74,10 @@ run(function () {
 			x$("#info").html('inner',"msg:"+message);
 		
 		};// end ask
-		ask();
+		
+		
+		// create views by xml
+		getXml();
 		
 	})();//end init
 
