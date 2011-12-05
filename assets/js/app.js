@@ -36,6 +36,7 @@ run(function () {
             	
             	}
 			}
+			message += "<div class='back_button'>Go Back</div>";
 			x$("#info").html('inner',"msg:"+message);
 		
 		};// end ask
