@@ -29,7 +29,7 @@ run(function () {
 				
 			 	for (var u = 0; u < x[i].attributes.length; u++) {
 			 		
-					var attr = info.attributes[u];
+					var attr = x[i].attributes[u];
 					if (attr.specified) {
 						message += "<p>" + attr.name + " = "  + attr.value + "</p>";
             		}
